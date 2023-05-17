@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+           
+            <div class="main-form">
+                <label class="input-1"    for = " Enter name"><h6 class="head">Name</h6> </label>
+                <input type="text" id="word" class="name" placeholder="Enter Name"/> </div> <br>
+                <h6>Are You ...</h6>
+                <br>
+                <div class="section-checkbox">
+                  
+                <input type="checkbox" id="checked" class="box-check" name="checkbox-checked" /> <h5>Single</h5>
+                <input type="checkbox" id="checked" class="box-check" name="checkbox-checked" /> <h5>Married</h5>
+                <input type="checkbox" id="checked" class="box-check" name="checkbox-checked" /> <h5>Divorced</h5>
+            </div>
+            <br>
+           
+           
+            <h6>Your Type Of ...</h6>
+            <br>
+            <div class="section-radio">
+               <input type="radio" id="radio"  class="radio-check" name="fav_language" value="HTML">
+                <label for="html"><h5>Introvert</h5></label>
+                <input type="radio" id="radio"  class="radio-check" name="fav_language" value="HTML">
+                <label for="html"><h5>Extrovert</h5></label>
+                <input type="radio" id="radio" class="radio-check" name="fav_language" value="HTML">
+                <label for="html"><h5>Ambivert</h5></label>
+            </div>
+            <h4>
+            <button id="btn" onclick="tableWithShow()" class="button">
+               Submit  </button>
+            </div>
+        </h4>
+        <div id="tables">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Are you...</th>
+                        <th>Your Type of...</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        </div>
+   <script src="app.js"></script>
+   
+</body>
+</html>
